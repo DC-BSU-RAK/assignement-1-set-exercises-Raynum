@@ -1,0 +1,25 @@
+/* Body Styles */
+body {
+    font-family: Arial;
+    background-color: #f5f5f5;
+    margin: 20px;
+    color: #333;
+}
+
+/* Heading Styles */
+h1 {
+    color: darkblue;
+    text-align: center;
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #0066cc;
+    font-size: 20px;
+}
+
+/* Paragraph Styles */
+p {
+    margin-left: 15px;
+}
