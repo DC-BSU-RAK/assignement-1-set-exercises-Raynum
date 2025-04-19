@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Sampler Pro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Audio Sampler Pro</h1>
+    <p>Click any sample to play</p>
+  </header>
+
+  <div class="controls">
+    <button class="control-btn" id="stopAll">Stop All</button>
+    <button class="control-btn" id="shuffle">Shuffle</button>
+  </div>
+
+  <main class="soundboard">
+    <button class="sample" data-sound="ah-ha">
+      <span class="sample-number">10.</span>
+      <span class="sample-title">Ah-Ha</span>
+      <span class="sample-duration">1.4s</span>
+    </button>
+
+    <button class="sample" data-sound="dan">
+      <span class="sample-number">11.</span>
+      <span class="sample-title">Dan</span>
+      <span class="sample-duration">0.5s</span>
+    </button>
+
+    <button class="sample" data-sound="back-of-the-net">
+      <span class="sample-number">12.</span>
+      <span class="sample-title">Back of the net</span>
+      <span class="sample-duration">1.02s</span>
+    </button>
+
+    <button class="sample" data-sound="bangoutoforder">
+      <span class="sample-number">13.</span>
+      <span class="sample-title">Bang out of order</span>
+      <span class="sample-duration">1.38s</span>
+    </button>
+
+    <button class="sample" data-sound="jurassicpark">
+      <span class="sample-number">14.</span>
+      <span class="sample-title">Jurassic Park</span>
+      <span class="sample-duration">1.49s</span>
+    </button>
+
+    <button class="sample" data-sound="iateascotchegg">
+      <span class="sample-number">15.</span>
+      <span class="sample-title">Smell my cheese</span>
+      <span class="sample-duration">1.91s</span>
+    </button>
+
+    <button class="sample" data-sound="emailoftheevening">
+      <span class="sample-number">16.</span>
+      <span class="sample-title">Goal</span>
+      <span class="sample-duration">1.49s</span>
+    </button>
+
+    <button class="sample" data-sound="imconfused">
+      <span class="sample-number">17.</span>
+      <span class="sample-title">Kiss my face</span>
+      <span class="sample-duration">1.07s</span>
+    </button>
+
+    <button class="sample" data-sound="hellopartridge">
+      <span class="sample-number">18.</span>
+      <span class="sample-title">Hello Partridge</span>
+      <span class="sample-duration">2.25s</span>
+    </button>
+  </main>
+
+  <audio id="ah-ha" src="Audio/ah-ha.mp3" preload="auto"></audio>
+  <audio id="dan" src="Audio/dan.mp3" preload="auto"></audio>
+  <audio id="back-of-the-net" src="Audio/back-of-the-net.mp3" preload="auto"></audio>
+  <audio id="bangoutoforder" src="Audio/bangoutoforder.mp3" preload="auto"></audio>
+  <audio id="hellopartridge" src="Audio/hellopartridge.mp3" preload="auto"></audio>
+  <audio id="emailoftheevening" src="Audio/emailoftheevening.mp3" preload="auto"></audio>
+  <audio id="iateascotchegg" src="Audio/iateascotchegg.mp3" preload="auto"></audio>
+  <audio id="imconfused" src="Audio/imconfused.mp3" preload="auto"></audio>
+
+  <footer>
+    <p>Audio Sampler Pro &copy; 2023 | All sounds property of their respective owners</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
