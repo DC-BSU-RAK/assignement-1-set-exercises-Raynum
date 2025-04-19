@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    margin: 0; 
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    background-image: url('https://img.freepik.com/free-photo/top-view-burger-orange-background_23-2148235104.jpg?t=st=1741778772~exp=1741782372~hmac=6ee7031c1f0fccda52641747db7a595f613c574c452ef12d42182697ad17bb5a&w=1480');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffcc00;
+    border-bottom: 5px solid #cc9900;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+/* Typography Styles */
+h1 {
+    color: rgb(49, 41, 3);
+    margin: 0;
+}
+
+h2 {
+    color: rgb(140, 108, 4);
+    font-weight: bolder;
+}
+
+h3 {
+    color: #cc9900;
+}
+
+div {
+    color: rgb(140, 108, 4); 
+    font-weight: bold;
+}
+
+p, li {
+    color: #f5f3e5;
+    font-weight: bold;
+}
+
+/* Image Styles */
+img {
+    border-style: groove;
+    padding: 2px;
+    border-color: darkgoldenrod;
+    margin: 15px 0;
+    display: block;
+}
+
+/* List Styles */
+ul, ol {
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+/* Footer Styles */
+h4 {
+    padding: 1px;
+    text-align: right;
+    color: #f5f3e5;
+    font-style: italic;
+}
