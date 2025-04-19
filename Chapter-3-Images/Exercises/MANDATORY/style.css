@@ -1,0 +1,86 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 20px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #0066cc;
+    margin-bottom: 30px;
+}
+
+/* Gallery Layout */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.photo-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.photo-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Image Styles */
+.gallery-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Special Image Filters */
+.fish-image {
+    filter: contrast(120%) saturate(120%);
+}
+
+.dolphin-image {
+    filter: hue-rotate(20deg);
+}
+
+/* Caption Styles */
+figcaption p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .gallery-image {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
+}
