@@ -1,0 +1,172 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.site-header {
+    background-color: #17072b;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Navigation Styles */
+.main-nav {
+    margin-top: 15px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #8c15e9;
+}
+
+/* Main Content Styles */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.welcome-section {
+    flex: 2;
+    min-width: 300px;
+}
+
+.line-up-section {
+    flex: 1;
+    min-width: 250px;
+    background-color: #172d67;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+.welcome-text {
+    margin-bottom: 20px;
+}
+
+/* Image Styles */
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tech-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.tech-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.tech-image:hover {
+    transform: scale(1.03);
+}
+
+/* Event List Styles */
+.event-list {
+    padding-left: 20px;
+}
+
+.event-item {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.copyright {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+    
+    .nav-item {
+        margin: 0 10px;
+    }
+    
+    .tech-images {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 2rem;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .nav-item {
+        margin: 0;
+    }
+}
